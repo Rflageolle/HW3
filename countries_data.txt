@@ -1,0 +1,9 @@
+Germany, 51 00 N, 9 00 E, 357022, 80594017, 3.979, 1871, /Users/FlageMac/School/Fall2017/ComputerScience2/Project2/germanyBorders.txt
+Netherlands, 52 30 N, 5 45 E, 41543, 17084719, 0.8708, 1579, /Users/FlageMac/School/Fall2017/ComputerScience2/Project2/netherlandsBorders.txt
+Belgium, 50 50 N, 4 00 E, 30528, 11491346, 0.5086, 1830, /Users/FlageMac/School/Fall2017/ComputerScience2/Project2/belgiumBorders.txt
+Luxembourg, 49 45 N, 6 10 E, 2586, 594130, 0.05874, 1839, /Users/FlageMac/School/Fall2017/ComputerScience2/Project2/luxembourgBorders.txt
+Poland, 52 00 N, 20 00 E, 312685, 38476269, 1.052, 1918, /Users/FlageMac/School/Fall2017/ComputerScience2/Project2/polandBorders.txt
+Czechia, 49 45 N, 15 30 E, 78867, 10674723, 0.3509, 1993, /Users/FlageMac/School/Fall2017/ComputerScience2/Project2/czechiaBorders.txt
+Austria, 47 20 N, 13 20 E, 83871, 8754413, 0.4166, 1918, /Users/FlageMac/School/Fall2017/ComputerScience2/Project2/austriaBorders.txt
+France, 46 00 N, 2 00 E, 643801, 67106161, 2.699, 1792, /Users/FlageMac/School/Fall2017/ComputerScience2/Project2/franceBorders.txt
+Switzerland, 47 00 N, 8 00 E, 41277, 8236303, 0.4963, 1291, /Users/FlageMac/School/Fall2017/ComputerScience2/Project2/switzerlandBorders.txt

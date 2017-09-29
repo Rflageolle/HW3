@@ -1,0 +1,27 @@
+public Countries[] readFromFile(String fileName) {
+	File text = new file(fileName);
+	Scanner in = new Scanner(text).useDelimiter(“\n\n”);
+
+	Countries[] fromFile = new Countries[];
+	try{
+		while(in.hasNextLine()){
+			String full = in.nextLine();
+			// countryName (string), latitude String, longitude String, countryArea int
+			// countryPopulation int, countryGDP double, countryYear int
+			Scanner break = new Scanner(full).useDelimiter(“,\\s*”);
+			String[] country = new String[7];
+			int currentString = 0;
+			while(break.hasNext()) {
+				country[currentString] = break.next();
+				currentString ++;	
+			}
+			break.close();
+			Countries x = new Countries(country[0], country[1], country[2], country[3].toInteger(), 						country[4].toInteger(), country[5].toDouble(), country[1].toInteger());
+			fromFile.append(x);	
+		}
+	} catch( FileNotFoundException e) {
+		System.out.print(e.getMessage());
+	}
+
+	return fromFile;
+}

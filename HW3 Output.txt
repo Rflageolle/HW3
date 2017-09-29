@@ -1,0 +1,80 @@
+run:
+This program allows you to choose one of 4 operations: 
+1 - Display the countries that border another Country. 
+2 - Display all countries that have a population greater than a given population. 
+3 - Display the countries that border another Country with a population greater than a given population. 
+4 - Quit the program. 
+
+To select the program simply type the number corresponding to the operation you want to be completed and then follow the instructions 
+on screen. (When entering Countries use upper-case first letter followed by lower-case form) 
+------------------------------------------------------------------------------------------------- 
+
+Which Operation would you like to perform: 1
+Which country: 
+Switzerland
+Countries that border Switzerland: 
+ -France
+ -Germany
+ -Austria
+
+
+Would you like to Continue? (Y or N): y
+Which Operation would you like to perform: 1
+Which country: 
+France
+Countries that border France: 
+ -Switzerland
+ -Luxembourg
+ -Germany
+ -Belgium
+
+
+Would you like to Continue? (Y or N): Y
+Which Operation would you like to perform: 2
+What population would you like to test? (whole number): 
+10374723
+Countries with Population over 10374723:
+ -Germany
+ -Netherlands
+ -Belgium
+ -Poland
+ -Czechia
+ -France
+
+
+Would you like to Continue? (Y or N): y
+Which Operation would you like to perform: 2
+What population would you like to test? (whole number): 
+30000000
+Countries with Population over 30000000:
+ -Germany
+ -Poland
+ -France
+
+
+Would you like to Continue? (Y or N): y
+Which Operation would you like to perform: 3
+What Country's borders would you like to check?
+Poland
+What population? (whole number): 
+3500000
+Countries that border Poland and have a population greater than 3500000: 
+ - Czechia
+ - Germany
+
+
+Would you like to Continue? (Y or N): y
+Which Operation would you like to perform: 3
+What Country's borders would you like to check?
+Austria
+What population? (whole number): 
+3000000
+Countries that border Austria and have a population greater than 3000000: 
+ - Switzerland
+ - Germany
+ - Czechia
+
+
+Would you like to Continue? (Y or N): y
+Which Operation would you like to perform: 4
+BUILD SUCCESSFUL (total time: 2 minutes 23 seconds)
